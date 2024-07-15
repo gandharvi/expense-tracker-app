@@ -1,0 +1,35 @@
+{
+    "name": "expense-tracker-frontend",
+    "version": "1.0.0",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^13.0.0",
+      "@angular/compiler": "^13.0.0",
+      "@angular/core": "^13.0.0",
+      "@angular/forms": "^13.0.0",
+      "@angular/platform-browser": "^13.0.0",
+      "@angular/platform-browser-dynamic": "^13.0.0",
+      "@angular/router": "^13.0.0",
+      "axios": "^0.21.1",
+      "rxjs": "~7.4.0",
+      "zone.js": "~0.11.4"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "~13.0.0",
+      "@angular/cli": "~13.0.0",
+      "@angular/compiler-cli": "~13.0.0",
+      "@types/jest": "^27.0.2",
+      "jest": "^27.0.6",
+      "ts-jest": "^27.0.5",
+      "typescript": "~4.5.4"
+    }
+  }
+  

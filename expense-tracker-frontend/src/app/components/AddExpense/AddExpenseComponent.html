@@ -1,0 +1,6 @@
+<h2>Add Expense</h2>
+<form (submit)="addExpense()">
+  <input type="text" [(ngModel)]="description" placeholder="Description" name="description" required>
+  <input type="number" [(ngModel)]="amount" placeholder="Amount" name="amount" required>
+  <button type="submit">Add</button>
+</form>
